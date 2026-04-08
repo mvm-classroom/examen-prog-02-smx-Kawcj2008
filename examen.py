@@ -9,11 +9,12 @@ def obtenir_nom():
 
     # Llista de cognoms incorrectes
     cognoms = ["Chandalet", "Camembert", "Sabadell", "Chevrolet", "Caganer", "Bechamel", "Casteller", "Churumbel", "Cafeaulait", "Crivillé", "Charmander"]
-
     
+    nom= random.choice(noms) 
+    cognom=random.choice(cognoms) 
+    juntar = nom + " " + cognom
     
-    return "Kaw"
-
+    return juntar
 
     # Aquí has de construir un nom amb un nomb aleatori i un cognom aleatori de les llistes
     # retornar el nom construït
@@ -34,11 +35,10 @@ def ordenar_noms(llista):
 def mostrar_menu():
     print("PENDENT: mostrar_menu")
     # Hem de mostrar el menú que ens demanen a l'enunciat
-    print(afegir_nom--------- 
-          llistar_noms-------
-          ordenar_noms-------
-          "Finalizar"
-          )
+    print("[A] Afegir nom")
+    print("[L] Llistar noms")
+    print("[O] Ordenar noms")
+    print("[F] Finalitzar")
 def demanar_opcio():
     print("PENDENT: demanar_opcio")
     # Hem de demanar a l'usuari una de les opcions del menú
